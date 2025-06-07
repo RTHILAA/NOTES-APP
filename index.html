@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Notes App</title>
+</head>
+<body>
+<div class="container">
+    <div class="content">
+     <h2 id="title"><i id="bookIcon" class="fa-solid fa-book"></i>My Notes</h2>
+     <button id="addBtn">+ Add Note</button>
+     <i id="searchIcon" class="fa-solid fa-magnifying-glass"></i>
+     <input type="text" id="search" placeholder="Search notes...">
+     <div class="newNote">
+        <h3>New Note</h3>
+        <input type="text" id="titleNote" placeholder="Title">
+        <textarea id="writeNote" placeholder="Start writing your note here..."></textarea>
+        <div class="save-cancel">
+        <button id="save">Save</button>
+        <button id="cancel">Cancel</button>
+        </div>
+     </div>
+     <div class="notes"></div>
+    </div>
+</div>
+    <script src="script.js"></script>
+</body>
+</html>
