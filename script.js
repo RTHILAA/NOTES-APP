@@ -5,7 +5,7 @@ let titleNote = document.querySelector("#titleNote");
 let writeNote = document.querySelector("#writeNote");
 let save = document.querySelector("#save");
 let notes = document.querySelector(".notes");
-let search = document.querySelector("#search");
+let search = document.querySelector("#search-input");
 
 addBtn.addEventListener("click", () => {
   newNote.style.display = "flex";
