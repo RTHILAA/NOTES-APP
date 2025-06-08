@@ -79,7 +79,7 @@ body {
 }
 
 #addBtn {
-  width: 100%;
+  width: 450px;
   padding: 12px;
   border: none;
   border-radius: 5px;
@@ -221,7 +221,7 @@ body {
   background-color: #fff;
   border-radius: 8px;
   padding: 22px;
-  width: 100%;
+  width: 450px;
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -268,7 +268,7 @@ body {
   #addBtn,
   .newNote,
   .box {
-    width: 80vh;
+    width: 50vh;
   }
 }
 
@@ -277,7 +277,7 @@ body {
   #addBtn,
   .newNote,
   .box {
-    width: 70vh;
+    width: 40vh;
   }
 }
 
