@@ -125,17 +125,6 @@ Notes are stored locally in your browser using `localStorage`. This means:
 - Mobile view: `max-width: 768px`
 - Small mobile: `max-width: 576px`
 
-## 🔮 Future Enhancements :
-
-Potential features that could be added:
-- [ ] Categories/Tags for notes
-- [ ] Export notes to PDF/Text
-- [ ] Dark mode toggle
-- [ ] Note sharing functionality
-- [ ] Rich text editing
-- [ ] Note templates
-- [ ] Backup and sync options
-
 ## 🤝 Contributing :
 
 Feel free to contribute to this project! Here's how:
